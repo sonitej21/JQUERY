@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage1</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="slick css/slick-theme.css">
+        <link rel="stylesheet" href="slick css/slick.css">
+        <script src="slick js/slick.js"></script>
+        <style type="text/css">
+            html, body {
+              margin: 0;
+              padding: 0;
+            }
+            * {
+              box-sizing: border-box;
+            }
+        
+            .slider {
+                width: 50%;
+                margin: 100px auto;
+            }
+        
+            .slick-slide {
+              margin: 0px 20px;
+            }
+        
+            .slick-slide img {
+              width: 100%;
+            }
+        
+            .slick-prev:before,
+            .slick-next:before {
+              color: black;
+            }
+        
+        
+            .slick-slide {
+              transition: all ease-in-out .3s;
+              opacity: .2;
+            }
+            
+            .slick-active {
+              opacity: .5;
+            }
+        
+            .slick-current {
+              opacity: 1;
+            }
+          </style>
+</head>
+<body>
+    <div class="hide">
+        <div class="print">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>MENU</li>
+                <li>GALLERY</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+        <button class="but1">Reserve Now</button>
+    </div>
+    <div class="section">
+        <header>
+            <div class="logo">
+                <h2>Steak</h2>
+            </div>
+            <div class="print">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <p class="txt1 animate__animated animate__bounceInDown  wow ">Welcome to Steak <br> Food & Restaurant</p>
+        <button class="btn1">Play Video</button>
+    </div>
+    <div class="section1">
+        <div class="im animate__animated animate__bounceInLeft  wow ">
+            <img src="image/img2.png" alt="">
+        </div>
+        <div class="pa animate__animated animate__bounceInRight  wow ">
+            <h2>Welcome To Steak <br>
+                Food & Restaurant</h2>
+            <h4>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgr right at the coast of the Semantics, a large language
+                ocean. <br> <br>
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+                paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </h4>
+            <button class="btn2">Read More</button>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="res">
+            <h3 class=" wow animate__animated animate__bounceInLeft">Restaurant Service</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and <br> Consonantia, there live the blind texts.</p>
+            <img src="image/Screenshot 2024-04-11 112025.png" alt="">
+        </div>
+    </div> 
+    <div class="section3">
+        <div class="menu">
+            <h3>
+                Our Menu
+            </h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and <br> Consonantia, there live the blind texts.</p>
+            <button class="btn3">breakfast</button>
+            <button class="btn4">Lunch</button>
+            <button class="btn5">Dinner</button>
+            <div class="dive">
+            <div class="d1 wow animate__animated animate__lightSpeedInLeft">
+                <img src="image/img3.jpg" alt="">
+                <h3>Salted Fried Chicken</h3>
+                <p>Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                <h4>$35.50</h4>
+                <br>
+                <img  id="im" src="image/img4.jpg" alt="">
+                <h3 id="ab">Italian Sauce Mushroom</h3>
+                <p id="cd">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                <h4 id="ef">$24.50</h4>
+                <br>
+                <img class="tej" src="image/img5.jpg" alt="">
+                <h3 id="a1">Fried Potato w/ Garlic</h3>
+                <p id="a2">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h4 id="a3">$14.50</h4>
+            </div>
+            <div class="d2 wow animate__animated animate__lightSpeedInRight">
+                <img id="t12" src="image/img4.jpg" alt="">
+                <h3 id="t1">Italian Sauce Mushroom</h3>
+                <p id="t2">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                <h4 id="t3">$35.50</h4>
+                <br>
+                <img  id="t11" src="image/img3.jpg" alt="">
+                <h3 id="t4">Salted Fried Chicken</h3>
+                <p id="t5">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                <h4 id="t6">$12.50</h4>
+                <br>
+                <img class="p23" src="image/img5.jpg" alt="">
+                <h4 class="p1">Fried Potato w/ Garlic</h3>
+                <p id="p2">Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 id="p3">&18.50</h3>
+            </div>
+            </div>
+        </div>
+    </div> 
+    <div class="main2">
+        <div class="con1">
+            <h1 class="  wow animate__animated animate__zoomIn">Today's Fun Facts</h1>
+            <div class="con2">
+                <div class="c1">
+                    <i class="fa-solid fa-hotdog"></i> <br> <br>
+                    <h2 class="counter">124</h2> <br>
+                    <p>Japanese Hotdog Sold</p>
+                </div>
+                <div class="c2">
+                    <i class="fa-solid fa-pizza-slice"></i>  <br> <br>
+                    <h2 class="counter">200</h2> <br>
+                    <p>Tasty Pizza Sold</p>
+                </div>
+                <div class="c3">
+                    <i class="fa-solid fa-fish"></i> <br> <br>
+                    <h2 class="counter">234</h2> <br>
+                    <p>Fried Fish Sold</p>
+                </div>
+            </div>
+        </div>
+           </div>  
+        <div class="section4">
+            <h1>News & Events</h1>
+            <h3>Far far away, behind the word mountains, far from the countries Vokalia and <br> Consonantia, there live the blind texts.</h3>
+            <div class="gallery">
+                <div class="g1">
+                    <div class="g2">
+                        <h2>Party At The Beach</h2>
+                        <h3>January 20,2019.3 Comments</h3>
+                    </div>
+                    <div class="g3">
+                        <h2>Unlimited Drinks</h2>
+                        <h3>January 20,2019.3 Comments</h3>
+                    </div>
+                    <div class="g4">
+                        <h2>Party At The Beach</h2>
+                        <h3>January 20,2019.3 Comments</h3>
+                    </div>
+                    <div class="g5">
+                        <h2>Unlimited Drinks</h2>
+                        <h3>January 20,2019.3 Comments</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section5">
+            <section class="variable slider">
+                <div class="text1">
+                    <i class="fa-solid fa-quote-left fa-xl"></i>
+                    <h2>"when she reached the first hills of the italic Mountains. she had a last view back on the <br> skyline of her
+                    hometown bookmark, the headline of albhabet village and the sublien <br> of her own road the line lane. pityful 
+                    a rethoric questions ran over her cheek, then she <br> continued her way."</h2>
+                  <img src="image/img10.jpg">
+                  <p>James Woodland</p>
+                </div>
+                <div class="text2">
+                    <i class="fa-solid fa-quote-left fa-xl"></i>
+                    <h2>"far far away, behind the word mountains, far from the countries vokalia and <br> skyline of her hometown 
+                        blined texts seprated they live in bookmarks right at the <br> cost of the semantics, a large language ocean."</h2>
+                  <img src="image/img11.jpg">
+                  <p>John Doe</p>
+                </div>
+                <div class="text3">
+                    <i class="fa-solid fa-quote-left fa-xl"></i>
+                    <h2>"a small river dude flows by their place and supplies it with the neccessary <br> regelialia. it is a paradisemetic 
+                        country, in which roasted part of sentences fly into your. <br> Mouth  "</h2>
+                  <img src="image/img12.jpg">
+                  <p>Rob Smith</p>
+                </div>
+              </section>
+        </div>
+        <div class="section6">
+            <div class="foo1">
+                <h2>ABOUT STEAK RESTAURANT</h2>
+                <h3>A small river named Duden flows by their <br> place and supplies it with the necessary <br> regelialia.</h3>
+                <button>About Us</button>
+            </div>
+            <div class="foo2">
+                <h1>QUICK LINKS</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Gallery</li>
+                    <li>Reservation</li>
+                </ul>
+            </div>
+            <div class="foo3">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                    <li>Call Us</li>
+                </ul>
+            </div>
+            <div class="foo4">
+                <h1>CONNECT WITH US</h1>
+                <div class="TE">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    new WOW().init();
+</script>
+ 
+<script>
+    $('.counter').counterUp({
+    delay: 10,
+    time: 2000
+});
+</script>
+<script>
+    $(document).ready(function(){
+        $('.fa-bars').click(function(){
+            $('.hide').toggleClass('show')
+        })
+    })
+</script>
+<script>
+    $(document).on('ready', function(){
+        $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+    });
+</script>
+</html>

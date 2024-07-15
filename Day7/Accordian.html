@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            width: 50%;
+            height: auto;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+        .container h1{
+            cursor: pointer;
+        }
+        .ans1,.ans2,.ans3{
+            display: none;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+                                <h1>FAQ(Frequently Asked Question)</h1>
+    <div class="container">
+        <h1 class="a">
+            What Is The FullStack Devloper
+        </h1>
+        <div class="ans1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, optio. Ea recusandae fugit minus totam vero
+            similique soluta molestias rem fugiat, dignissimos maiores praesentium modi minima blanditiis earum quae,
+            suscipit harum distinctio? Nisi explicabo rem, alias recusandae inventore necessitatibus totam modi libero
+            rerum ab dolor doloribus iure temporibus numquam omnis. Modi dolores voluptates incidunt vitae est soluta
+            inventore perspiciatis labore molestiae aut voluptas quas, quidem sunt obcaecati repellendus possimus
+            nostrum, illum aliquid! Non ducimus aperiam quia, modi quo quos cumque nesciunt, odit exercitationem
+            accusantium, iusto beatae ipsa esse facilis eaque perferendis sequi harum assumenda odio incidunt ab
+            dolorum? Voluptate, labore!
+        </div>
+        </div>
+        <div class="container">
+        <h1 class="b">
+            What Is The FullStack Devloper
+        </h1>
+        <div class="ans2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, optio. Ea recusandae fugit minus totam vero
+            similique soluta molestias rem fugiat, dignissimos maiores praesentium modi minima blanditiis earum quae,
+            suscipit harum distinctio? Nisi explicabo rem, alias recusandae inventore necessitatibus totam modi libero
+            rerum ab dolor doloribus iure temporibus numquam omnis. Modi dolores voluptates incidunt vitae est soluta
+            inventore perspiciatis labore molestiae aut voluptas quas, quidem sunt obcaecati repellendus possimus
+            nostrum, illum aliquid! Non ducimus aperiam quia, modi quo quos cumque nesciunt, odit exercitationem
+            accusantium, iusto beatae ipsa esse facilis eaque perferendis sequi harum assumenda odio incidunt ab
+            dolorum? Voluptate, labore!
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="c">
+            What Is The FullStack Devloper
+        </h1>
+        <div class="ans3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, optio. Ea recusandae fugit minus totam vero
+            similique soluta molestias rem fugiat, dignissimos maiores praesentium modi minima blanditiis earum quae,
+            suscipit harum distinctio? Nisi explicabo rem, alias recusandae inventore necessitatibus totam modi libero
+            rerum ab dolor doloribus iure temporibus numquam omnis. Modi dolores voluptates incidunt vitae est soluta
+            inventore perspiciatis labore molestiae aut voluptas quas, quidem sunt obcaecati repellendus possimus
+            nostrum, illum aliquid! Non ducimus aperiam quia, modi quo quos cumque nesciunt, odit exercitationem
+            accusantium, iusto beatae ipsa esse facilis eaque perferendis sequi harum assumenda odio incidunt ab
+            dolorum? Voluptate, labore!
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".a").click(function(){
+            $(".ans1").slideDown(1000)
+            $(".ans2").slideUp(1000)
+            $(".ans3").slideUp(1000)
+        })
+
+       $(".b").click(function(){
+        $(".ans2").slideDown(1000)
+        $(".ans1").slideUp(1000)
+        $(".ans3").slideUp(1000)
+       })
+       $(".c").click(function(){
+        $(".ans3").slideDown(1000)
+        $(".ans1").slideUp(1000)
+        $(".ans2").slideUp(1000)
+       })
+    })
+</script>
+</html>

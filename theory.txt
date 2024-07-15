@@ -1,0 +1,48 @@
+						J-Query Theory
+
+1) What is J-query??
+-  j-query is library of java script
+-  java script is programming language of web devlopment
+-  jquery devloped by javascript engineer
+
+2) what is the use of javascript??
+-  using jquery you can create responsive header..
+-  you can user slider in web pages..
+-  plug in provides by jquery..
+
+3) where to write a jquery??
+-  there are two ways :- internal
+			 external
+
+- internal:- (inside the html page using script)
+- external:- (create a seprate file with extension .js and link it using script tag.)
+
+4) how to use j-query??
+-  Download version: CDN
+
+5) where to find jquery??
+-  jquery official website...
+
+6) what is syntax of jquery??
+-  $= It Is indiator of jquery (Doller Sign) 
+-  Selector= through that we can apply effect or function
+-  action= task that Perform/Event
+
+	$(selector).action(function(){
+		$(selector).action(function(){
+		$(selector).action(function()
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

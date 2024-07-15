@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+            <h1>Focus</h1>
+        </div>
+        <div class="side1">
+            <h1>Main Menu</h1>
+            <div class="main">
+            <i class="fa-solid fa-user-large"></i><p>Dashboard</p>
+            </div>
+        </div>
+        <div class="side2">
+            <h1>Apps</h1>
+            <div class="main2">
+                <i class="fa-solid fa-signal"></i> <p>Apps</p>
+                </div>
+                <div class="main3">
+                <i class="fa-solid fa-chart-line"></i> <p>Chart</p>
+            </div>
+        </div>
+        <div class="side3">
+            <h1>Components</h1>
+            <div class="main4">
+                <i class="fa-solid fa-record-vinyl"></i> <p class="txt1">Bootstrap</p>
+                </div>
+                <div class="main5">
+                <i class="fa-solid fa-plug-circle-minus"></i> <p class="txt2">Plugin</p>
+                </div>
+                <div class="main6">
+                <i class="fa-solid fa-panorama"></i> <p class="txt3">Widget</p>
+                </div>
+            </div>
+            <div class="side4">
+                <h1>Forms</h1>
+                <div class="main7">
+                    <i class="fa-brands fa-wpforms"></i> <p>Forms</p>
+                </div>
+            </div>
+            <div class="side5">
+                <h1>Table</h1>
+                <div class="main8">
+                <i class="fa-solid fa-table"></i> <p>Table</p>
+                </div>
+            </div>
+            <div class="side6">
+                <h1>Extra</h1>
+                <div class="main9">
+                    <i class="fa-solid fa-pager"></i> <p>Pages</p>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="search">
+        </div>
+        <div class="ic1">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        </header>
+        <div class="section">
+            <div class="s1">
+                <h1>Today Expenses</h1>
+                <h2 class="counter">$8500</h2>
+            </div>
+            <div class="s2">
+                <h1>Income Details</h1>
+                <h2 class="counter">$7800</h2>
+            </div>
+            <div class="s3">
+                <h1>Task Completed</h1>
+                <h2 class="counter">$500</h2>
+            </div>
+            <div class="s4">
+                <h1>Task Completed</h1>
+                <h2 class="counter">$8500</h2>
+            </div>
+        </div>
+        <div class="section1">
+            <div class="se1">
+                <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+            </div>
+            <div class="se2"></div>
+        </div>
+</body>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+</script>
+</html>

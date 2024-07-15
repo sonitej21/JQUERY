@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse leave sexample</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        div{
+            width: 450px;
+            height: 450px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>this is example of mouse leave</h1>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $('div').mouseleave(function(){
+            $('div').css('background-color','green');
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        fieldset{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+        }
+        button{
+            width: 50%;
+            height: 40px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        p{
+            font-size: 35px;
+            color: green;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form action="">
+            <p>login Page</p>
+            <input type="text" name="username" placeholder="Enter Your Name" id="us"> <br> <br>
+            <input type="password" name="password" placeholder="Enter your Password" id="pw"> <br> <br>
+            <button type="button">Login</button>
+        </form>
+    </fieldset>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+        var us=document.getElementById("us").value
+        var pw=document.getElementById("pw").value
+
+        if (us=="admin" && pw==12345)
+        {
+            window.location.replace("index.html");
+        }
+    });
+  });  
+</script>
+</html>
